@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web stranica - Snježana Mijošević</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Novi font "Love Ya Like A Sister" -->
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Web stranica Snježane Mijošević</h1>
+              <p>
+                <img src="images/ttlogo.png" alt="Totus Tuus obećanik">
+                <span>Totus Tuus obećanik</span>
+              </p></a>
+            
+          </div><!-- navbar-brand-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Gumb navigacija</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- navbar-header-->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="knjiznica.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Knjižnica
+              </a>
+            </li>
+            <li>
+               <a href="glazba.html">
+                <span class="glyphicon glyphicon-headphones"></span><br class="hidden-xs"> Glazba
+              </a>
+            </li>
+            <li> 
+              <a href="omeni.html" class="active">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> O meni
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:##########">
+                <span>### ### ####</span>
+              </a>
+              <div>Nazovi</div>
+            </li>
+          </ul> <!--#nav-list -->
+        </div><!--collapsable-nav -->
+      </div><!-- container-->
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:##########">
+      <span class="glyphicon glyphicon-earphone"></span>
+      099 877 1793
+    </a>
+  </div><!--call-btn -->
+  <div id="nazovi" class="text-center visible-xs">Nazovi</div>
+  <div id="main-content" class="container">
+    <div class="row">
+    <div id="zivotopis" class="col-xs-6">
+    <h3>Ime i prezime:</h3><br>
+    Snježana Mijošević<br>
+    <br>
+    <h3>Osobni podaci:</h3><br>
+    Datum rođenja: 21.04.1989.<br>
+    Mjesto rođenja: Koprivnica<br>
+    Mjesto prebivališta: Osijek<br>
+    <br>
+    <h3>Obrazovanje:</h3><br>
+    Osnovna škola: OŠ Frana Krste Frankopana, Osijek (1996.-2004.)<br>
+    Srednja škola: III. gimnazija, Osijek (2004.-2008.)<br>
+    Fakultet: Odjel za matematiku, sveučilišni nastavnički studij matematike i informatike (2008.-2014.)<br>
+    <br>
+    <h3>Sviranje instrumenata:</h3><br>
+    Djembe bubanj (od lipnja 2007.)<br>
+    Gitara (od lipnja 2011.)<br>
+    12-žična gitara (od siječnja 2012.)<br>
+    </div>
+    <div id="slika" class="col-xs-6">
+      <img src="images/profilna.jpg">
+    </div>
+  </div>
+  </div><!--main-content -->
+  <footer class="panel-footer">
+    <div class="container">
+       <div class="row">
+        <section id="hours" class="col-sm-6"><h2>Sati:</h2>
+          ##################<br>
+          proba neki tekst
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-6"><h2>Adresa:</h2>
+          ##################<br>
+          proba neki tekst
+          <hr class="visible-xs">
+        </section>
+
+      </div><!--row-->
+    </div><!--container-->
+    <div class="text-center">&copy; Copyright Snježana Mijošević 2020</div>
+  </footer>
+  <!--jQuery (Bootstap JS depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web stranica - Snježana Mijošević</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--Novi font "Love Ya Like A Sister" -->
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Web stranica Snježane Mijošević</h1>
+              <p>
+                <img src="images/ttlogo.png" alt="Totus Tuus obećanik">
+                <span>Totus Tuus obećanik</span>
+              </p></a>
+            
+          </div><!-- navbar-brand-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Gumb navigacija</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div><!-- navbar-header-->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="knjiznica.html">
+                <span class="glyphicon glyphicon-book"></span><br class="hidden-xs"> Knjižnica
+              </a>
+            </li>
+            <li>
+               <a href="glazba.html">
+                <span class="glyphicon glyphicon-headphones"></span><br class="hidden-xs"> Glazba
+              </a>
+            </li>
+            <li> 
+              <a href="omeni.html">
+                <span class="glyphicon glyphicon-user"></span><br class="hidden-xs"> O meni
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:##########">
+                <span>### ### ####</span>
+              </a>
+              <div>Nazovi</div>
+            </li>
+          </ul> <!--#nav-list -->
+        </div><!--collapsable-nav -->
+      </div><!-- container-->
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:##########">
+      <span class="glyphicon glyphicon-earphone"></span>
+      099 877 1793
+    </a>
+  </div><!--call-btn -->
+  <div id="nazovi" class="text-center visible-xs">Nazovi</div>
+  <div id="main-content" class="container">
+    <section class="row">
+      <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="https://verbum.hr/media/catalog/product/cache/6b552494e4d4a60152e5cee20c61d11a/g/r/granice.jpg" width="100px">
+          </div>
+          <div class="col-sm-7">
+            Naslov: Granice <br>
+            Pisac: Henry Cloud, John Townsend<br>
+            Izdavač: Verbum<br>
+            Cijena: 168,00 kn<br>
+          </div>
+        </div>
+        <hr class="visible-xs">
+    </div>
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="https://verbum.hr/media/catalog/product/cache/6b552494e4d4a60152e5cee20c61d11a/3/8/388.jpg" width="100px">
+          </div>
+          <div class="col-sm-7">
+            Naslov: Upravljanje novcem za katolike <br>
+            Pisac: Phil Lenahan<br>
+            Izdavač: Verbum<br>
+            Cijena: 95,00 kn<br>
+          </div>
+        </div>
+        <hr class="visible-xs">
+    </div>
+    <div class="clearfix visible-lg-block visible-md-block"></div>
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="https://verbum.hr/media/catalog/product/cache/6b552494e4d4a60152e5cee20c61d11a/g/r/granice.jpg" width="100px">
+          </div>
+          <div class="col-sm-7">
+            Naslov: Granice <br>
+            Pisac: Henry Cloud, John Townsend<br>
+            Izdavač: Verbum<br>
+            Cijena: 168,00 kn<br>
+          </div>
+        </div>
+        <hr class="visible-xs">
+    </div>
+    <div class="menu-item-tile col-md-6">
+        <div class="row">
+          <div class="col-sm-5">
+            <img src="https://verbum.hr/media/catalog/product/cache/6b552494e4d4a60152e5cee20c61d11a/3/8/388.jpg" width="100px">
+          </div>
+          <div class="col-sm-7">
+            Naslov: Upravljanje novcem za katolike <br>
+            Pisac: Phil Lenahan<br>
+            Izdavač: Verbum<br>
+            Cijena: 95,00 kn<br>
+          </div>
+        </div>
+        <hr class="visible-xs">
+    </div>
+    <div class="clearfix visible-lg-block visible-md-block"></div>
+  </section>
+  
+    </div><!--main-content -->
+  <footer class="panel-footer">
+    <div class="container">
+       <div class="row">
+        <section id="hours" class="col-sm-6"><h2>Sati:</h2>
+          ##################<br>
+          proba neki tekst
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-6"><h2>Adresa:</h2>
+          ##################<br>
+          proba neki tekst
+          <hr class="visible-xs">
+        </section>
+
+      </div><!--row-->
+    </div><!--container-->
+    <div class="text-center">&copy; Copyright Snježana Mijošević 2020</div>
+  </footer>
+  <!--jQuery (Bootstap JS depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
